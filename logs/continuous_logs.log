@@ -89,3 +89,105 @@ Source-Age: 0
 [2026-05-29 01:25:33,895:INFO:>>>>> stage Data Ingestion Stage completed!<<<<<
 
 x==========x]
+[2026-05-29 02:08:11,728:INFO:yaml file: config\config.yaml loaded successfully]
+[2026-05-29 02:08:11,824:INFO:yaml file: params.yaml loaded successfully]
+[2026-05-29 02:08:11,838:INFO:created directory at: artifacts]
+[2026-05-29 02:08:11,840:INFO:created directory at: artifacts/data_transformation]
+[2026-05-29 02:18:19,867:INFO:yaml file: config\config.yaml loaded successfully]
+[2026-05-29 02:18:19,967:INFO:yaml file: params.yaml loaded successfully]
+[2026-05-29 02:18:19,971:INFO:created directory at: artifacts]
+[2026-05-29 02:18:19,973:INFO:created directory at: artifacts/data_transformation]
+[2026-05-29 02:18:20,770:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-05-29 02:18:20,774:WARNING:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.]
+[2026-05-29 02:18:20,807:INFO:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:20,907:INFO:HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:21,908:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-05-29 02:18:21,941:INFO:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:21,985:INFO:HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:22,104:INFO:HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-05-29 02:18:22,155:INFO:HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:22,553:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/spiece.model "HTTP/1.1 307 Temporary Redirect"]
+[2026-05-29 02:18:22,591:INFO:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/spiece.model "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:22,637:INFO:HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/spiece.model "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:22,803:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer.json "HTTP/1.1 404 Not Found"]
+[2026-05-29 02:18:22,857:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"]
+[2026-05-29 02:18:22,907:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-05-29 02:18:22,946:INFO:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/special_tokens_map.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:22,985:INFO:HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/special_tokens_map.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:18:23,034:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"]
+[2026-05-29 02:20:27,161:INFO:yaml file: config\config.yaml loaded successfully]
+[2026-05-29 02:20:27,166:INFO:yaml file: params.yaml loaded successfully]
+[2026-05-29 02:20:27,169:INFO:created directory at: artifacts]
+[2026-05-29 02:20:27,169:INFO:created directory at: artifacts/data_transformation]
+[2026-05-29 02:20:27,413:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-05-29 02:20:27,445:INFO:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:20:27,486:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-05-29 02:20:27,517:INFO:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:20:27,557:INFO:HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-05-29 02:20:27,603:INFO:HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-05-29 02:40:33,842:INFO:stage Data Ingestion Stage initiated]
+[2026-05-29 02:40:33,846:INFO:yaml file: config\config.yaml loaded successfully]
+[2026-05-29 02:40:33,946:INFO:yaml file: params.yaml loaded successfully]
+[2026-05-29 02:40:33,965:INFO:created directory at: artifacts]
+[2026-05-29 02:40:33,966:INFO:created directory at: artifacts/data_ingestion]
+[2026-05-29 02:40:33,967:INFO:yaml file: config\config.yaml loaded successfully]
+[2026-05-29 02:40:33,968:INFO:yaml file: params.yaml loaded successfully]
+[2026-05-29 02:40:33,968:INFO:created directory at: artifacts]
+[2026-05-29 02:40:33,968:INFO:created directory at: artifacts/data_ingestion]
+[2026-05-29 02:40:33,969:INFO:File already exists of size: 7.54 MB]
+[2026-05-29 02:40:34,312:ERROR:Error occurred in stage Data Ingestion Stage: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+[2026-05-29 02:46:44,621:INFO:stage Data Ingestion Stage initiated]
+[2026-05-29 02:46:44,638:INFO:yaml file: config\config.yaml loaded successfully]
+[2026-05-29 02:46:44,638:INFO:yaml file: params.yaml loaded successfully]
+[2026-05-29 02:46:44,638:INFO:created directory at: artifacts]
+[2026-05-29 02:46:44,638:INFO:created directory at: artifacts/data_ingestion]
+[2026-05-29 02:46:44,642:INFO:yaml file: config\config.yaml loaded successfully]
+[2026-05-29 02:46:44,643:INFO:yaml file: params.yaml loaded successfully]
+[2026-05-29 02:46:44,643:INFO:created directory at: artifacts]
+[2026-05-29 02:46:44,643:INFO:created directory at: artifacts/data_ingestion]
+[2026-05-29 02:46:46,540:INFO:artifacts\data_ingestion\data.zip downloaded with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AB2C:2736C9:596663:6D0776:6A193655
+Accept-Ranges: bytes
+Date: Fri, 29 May 2026 06:46:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bos-kbos510037-BOS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1780037206.133335,VS0,VE79
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f8cb34d8dff27e1ddfa29d0660353e30b264b01d
+Expires: Fri, 29 May 2026 06:51:46 GMT
+Source-Age: 0
+
+]
+[2026-05-29 02:46:47,379:INFO:File extracted at: artifacts\data_ingestion]
+[2026-05-29 02:46:47,379:INFO:>>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x]
+[2026-05-29 02:46:47,380:INFO:stage Data Transformation Stage initiated]
+[2026-05-29 02:46:47,387:INFO:yaml file: config\config.yaml loaded successfully]
+[2026-05-29 02:46:47,389:INFO:yaml file: params.yaml loaded successfully]
+[2026-05-29 02:46:47,390:INFO:created directory at: artifacts]
+[2026-05-29 02:46:47,391:INFO:created directory at: artifacts/data_transformation]
+[2026-05-29 02:46:47,539:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-05-29 02:46:47,539:WARNING:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.]
+[2026-05-29 02:46:47,565:INFO:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:46:47,722:INFO:HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-05-29 02:46:47,747:INFO:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-05-29 02:46:47,823:INFO:HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-05-29 02:46:47,875:INFO:HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-05-29 02:46:55,225:INFO:>>>>> stage Data Transformation Stage completed!<<<<<
+
+x==========x]
